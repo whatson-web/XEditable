@@ -1,0 +1,3 @@
+whx_editable_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: WHXEditableBundle:Default:index }

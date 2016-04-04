@@ -1,0 +1,6 @@
+services:
+  app.twig_extension:
+    class: WH\XEditableBundle\Twig\XEditableExtension
+    arguments: ['@service_container']
+    tags:
+      - { name: twig.extension }
